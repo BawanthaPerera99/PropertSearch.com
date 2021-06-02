@@ -1,0 +1,116 @@
+{
+  "properties": [
+    {
+      "id":"prop1",
+      "type":"House",
+      "bedrooms":3,
+      "price":650000,
+      "tenure":"Freehold",
+      "description":"Attractive three bedroom semi-detached family home situated within 0.5 miles of Petts Wood station with fast trains to London and within easy walking distance of local shops, schools, bus routes and National Trust woodland. The property comprises; two receptions, fitted 18'9 x 10'1 kitchen/breakfast room and conservatory. The property also benefits from having a utility room and cloakroom. To the first floor there are three bedrooms and a family bathroom with separate WC. Additional features include double glazing, gas central heating and a well presented interior...",
+      "location":"Petts Wood Road, Petts Wood, Orpington",
+      "picture":"images/prop1pic1.jpg",
+      "url":"properties/prop1.html",
+      "added": {
+        "month":"March",
+        "day":12,
+        "year":2020
+      }
+    },
+    {
+      "id":"prop2",
+      "type":"Flat",
+      "bedrooms":2,
+      "price":299995,
+      "tenure":"Freehold",
+      "description":"Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room/kitchen and both bedrooms.<br>This apartment being only five years old, is still under a 10 year building guarantee...",
+      "location":"Crofton Road Orpington BR6",
+      "picture":"images/prop2pic1.jpg",
+      "url":"properties/prop2.html",
+      "added": {
+        "month":"September",
+        "day":14,
+        "year":2020
+      }
+    },
+    {
+      "id":"prop3",
+      "type":"Flat",
+      "bedrooms":4,
+      "price":1995000,
+      "tenure":"Freehold",
+      "description":"Set in glorious countryside surrounded by the majestic Howardian Hills sits the delightful Dykelands Farm. This unique property enjoys the very best of rural living situated on the edge of the picturesque village of Whenby, yet within easy distance of the thriving market towns of Easingwold and Malton and the historic city of York. Dykelands Farm is a magnificent combination of a period farmhouse,substantial stone barn, extensive range of equestrian, agricultural buildings and an all weather manège, all set within approximately eight acres of gardens, grounds and paddock land.The farmhouse, stone barn, farm buildings and stables form a lovely gravelled courtyard and are surrounded by well stocked gardens, pasture and paddock land bordered by mixed woodland.",
+      "location":"Dykelands Farm, Whenby, Lane, York, YO61 4SF",
+      "picture":"images/prop3pic1.jpg",
+      "url":"properties/prop3.html",
+      "added": {
+        "month":"October",
+        "day":28,
+        "year":2020
+      }
+    },
+    {
+      "id":"prop4",
+      "type":"House",
+      "bedrooms":5,
+      "price":1600000,
+      "tenure":"Freehold",
+      "description":"Ground Floor:The accommodation is entered via an entrance hall/boot room giving access to a lovely dual aspect drawing room with feature stone fireplace with log burning stove and French doors leading to the stone flagged terrace and gardens beyond. The drawing room opens to a fabulous open plan sitting room and dining room with feature double sided log burning stove and exposed oak beams.The breakfast kitchen lies at the centre of the home and enjoys a range of shaker style painted kitchen base and wall units with granite work surfaces, large central island and range style cooker. There isdirect access from French doors leading to the south facing terrace and gardens.",
+      "location":"Dykelands Farm, Whenby, Lane, York",
+      "picture":"images/prop4pic1.jpg",
+      "url":"properties/prop4.html",
+      "added": {
+        "month":"January",
+        "day":2,
+        "year":2020
+      }
+    },
+    {
+      "id":"prop5",
+      "type":"House",
+      "bedrooms":6,
+      "price":2450000,
+      "tenure":"Freehold",
+      "description":"The property is accessed from Tadcaster Road via an electrically operated wrought iron sliding gate, where there is turning area and parking for several vehicles as well as a car charging point. A double gateway opens to the rear where the driveway leads to a detached brick garage. The beautifully landscaped walled gardens benefit from a westerly facing rear aspect with a summerhouse and large secluded patio area, as well as an abundance of mature shrubs and impressive trees. The house itself offers almost 5000 sq ft of usable accommodation, the majority of this being on the ground and first floor with a special mention going to the stunning original staircase leading up from the mosaic tiled entrance hall.",
+      "location":"Tadcaster Road, The Mount, York",
+      "picture":"images/prop5pic1.jpg",
+      "url":"properties/prop5.html",
+      "added": {
+        "month":"February",
+        "day":11,
+        "year":2020
+      }
+    },
+    {
+      "id":"prop6",
+      "type":"Flat",
+      "bedrooms":7,
+      "price":1500000,
+      "tenure":"Freehold",
+      "description":"Located just off the A12 which links to the M25 and A14, the of high profile village of East Bergholt is just 5 minutes drive from mainline railway links at Manningtree Station (approx. one hour to London Liverpool Street). The village also boasts a range of facilities including general store, post office, baker, chemist, GP surgery and medical centre. The villages provides educational facilities from pre-school age to GCSE, with high performing sixth form colleges in Colchester and Ipswich. There are several independent schools in the local area.",
+      "location":"The White House, Gaston Street, East Bergholt",
+      "picture":"images/prop6pic1.jpg",
+      "url":"properties/prop6.html",
+      "added": {
+        "month":"April",
+        "day":19,
+        "year":2020
+      }
+    },
+    {
+      "id":"prop7",
+      "type":"House",
+      "bedrooms":8,
+      "price":680000,
+      "tenure":"Freehold",
+      "description":"Tucked away from the hustle and bustle of Huddersfield, this property is situated in an idyllic setting to say the least. With views across Emley Moor, Castle Hill and beyond, this is the perfect place to relax and enjoy only the sounds of nature. Offering a flexible layout, this property boasts sizeable rooms throughout to include: an open plan kitchen diner leading through to a living room, and separate sitting room/bedroom three, grand entrance hall, integral garage and WC, and leading to the first floor there are two very generous double bedrooms. The master includes an en-suite, and there is a family bathroom with separate walk in shower and bath. With ample off road parking and lawn area to the front of the property, it is ideal for those looking for a relaxing way of life.",
+      "location":"Carr Mount, Kirkheaton, Huddersfield, West Yorkshire",
+      "picture":"images/prop7pic1.jpg",
+      "url":"properties/prop7.html",
+      "added": {
+        "month":"May",
+        "day":25,
+        "year":2020
+      }
+    }
+  ]}
+

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property 5</title>
+    <link rel="stylesheet" href="property.css" >
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="property.js"></script>
+
+    <style>
+        #one{
+            background-image: url("../images/prop5pic1.jpg");
+            background-size: cover;
+        }
+
+        #two{
+            background-image: url("../images/prop2pic2.jpg");
+            background-size: cover;
+        }
+
+        #three{
+            background-image: url("../images/prop2pic3.jpg");
+            background-size: cover;
+        }
+
+        #four{
+            background-image: url("../images/prop1pic4.jpg");
+            background-size: cover;
+        }
+
+        #five{
+            background-image: url("../images/prop1pic5.jpg");
+            background-size: cover;
+        }
+
+        #six{
+            background-image: url("../images/prop1pic6.jpg");
+            background-size: cover;
+        }
+
+        #one:checked ~ .display-image{
+            background-image: url("../images/prop5pic1.jpg");
+        }
+
+        #two:checked ~ .display-image{
+            background-image: url("../images/prop2pic2.jpg");
+        }
+
+        #three:checked ~ .display-image{
+            background-image: url("../images/prop2pic3.jpg");
+        }
+
+        #four:checked ~ .display-image{
+            background-image: url("../images/prop1pic4.jpg");
+        }
+
+        #five:checked ~ .display-image{
+            background-image: url("../images/prop1pic5.jpg");
+        }
+
+        #six:checked ~ .display-image{
+            background-image: url("../images/prop1pic6.jpg");
+        }
+    </style>
+</head>
+<header id="top">
+    <img class="logo" src="../images/logo.jpg" alt="website logo">
+    <nav class="nav">
+        <a href="../index.html"> Search</a>
+        <a href="#"> Properties</a>
+        <a href="#"> About US</a>
+    </nav>
+</header>
+<body>
+
+<div class="container">
+    <input type="radio" name="image" id="one" checked>
+    <input type="radio" name="image" id="two">
+    <input type="radio" name="image" id="three">
+    <input type="radio" name="image" id="four">
+    <input type="radio" name="image" id="five">
+    <input type="radio" name="image" id="six">
+
+    <div class="display-image">
+
+    </div>
+
+    <div id="property-right" class="hou">
+        <h1> House For Sale </h1>
+        <p> Property Type :&nbsp;  House </p>
+        <p> Bedrooms :&nbsp;  6</p>
+        <p> Price :&nbsp;  £2,450,000</p>
+        <p> Tenure :&nbsp;  Freehold</p>
+        <p> Location :&nbsp;  Tadcaster Road, The Mount, York </p>
+    </div>
+</div>
+
+<div id="ui-tabs">
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Description')">Description</button>
+        <button class="tablinks" onclick="openCity(event, 'Plan')">Floor Plan</button>
+        <button class="tablinks" onclick="openCity(event, 'Map')">Google Map</button>
+    </div>
+
+    <div id="Description" class="tabcontent">
+        <h3>Property Description:</h3>
+        <p>The property is accessed from Tadcaster Road via an electrically operated wrought iron sliding gate, where there is turning area and parking for several vehicles as well as a car charging point. A double gateway opens to the rear where the driveway leads to a detached brick garage. The beautifully landscaped walled gardens benefit from a westerly facing rear aspect with a summerhouse and large secluded patio area, as well as an abundance of mature shrubs and impressive trees. The house itself offers almost 5000 sq ft of usable accommodation, the majority of this being on the ground and first floor with a special mention going to the stunning original staircase leading up from the mosaic tiled entrance hall</p>
+    </div>
+
+    <div id="Plan" class="tabcontent">
+        <img src="../images/prop1Plan.jpg" width="700" height="400" alt="propertyPlan">
+    </div>
+
+    <div id="Map" class="tabcontent">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2348.2261301808385!2d-1.104512584138881!3d53.945491180108995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487930e43b01c3ed%3A0x1abc4eaa5d7394bd!2sTadcaster%20Rd%20York%2C%20York%2C%20UK!5e0!3m2!1sen!2slk!4v1609493170524!5m2!1sen!2slk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+    <div id="buttons">
+        <p id="prop5">
+            <button class="addFavourites">Add To Favourites</button>
+            <button class="removeFavourites">Remove from Favourites</button>
+        </p>
+    </div>
+</div>
+</body>
+
+<footer class="foot">
+    <div class="box">
+        <!-- tweeter feed -->
+        <a class="twitter-timeline" data-width="300" data-height="300" data-theme="dark"
+           href="https://twitter.com/rightmove?lang=en">PropertySearch.com</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="footer-content">
+        <h3>Find Everything Near You: PropertySearch.com</h3>
+        <p id="up">" With over half a billion connections made, just tell us what you like and meet a car you'll love. "</p>
+        <nav class="socials">
+            <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.png" alt="facebook icon"></a>
+            <a href="https://www.whatsapp.com/?lang=en" target="_blank"><img src="../images/whatsapp.jpg" alt="whatsapp icon"></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><img src="../images/twitter.png" alt="twitter icon"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../images/messenger.jpg" alt="messenger icon"></a>
+            <a href=https://twitter.com/?lang=en target="_blank"><img src="../images/google.png" alt="google icon"></a>
+            <p id="down">Copyrights@2020 PropertySearch.com. Designed by Bawantha Perera</p>
+        </nav>
+    </div>
+</footer>
+
+</html>

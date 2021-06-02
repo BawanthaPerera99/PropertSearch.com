@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property 6</title>
+    <link rel="stylesheet" href="property.css" >
+    <link href="https://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="property.js"></script>
+
+    <style>
+        #one{
+            background-image: url("../images/prop6pic1.jpg");
+            background-size: cover;
+        }
+
+        #two{
+            background-image: url("../images/prop2pic2.jpg");
+            background-size: cover;
+        }
+
+        #three{
+            background-image: url("../images/prop1pic3.jpg");
+            background-size: cover;
+        }
+
+        #four{
+            background-image: url("../images/prop2pic4.jpg");
+            background-size: cover;
+        }
+
+        #five{
+            background-image: url("../images/prop1pic5.jpg");
+            background-size: cover;
+        }
+
+        #six{
+            background-image: url("../images/prop1pic6.jpg");
+            background-size: cover;
+        }
+
+        #one:checked ~ .display-image{
+            background-image: url("../images/prop6pic1.jpg");
+        }
+
+        #two:checked ~ .display-image{
+            background-image: url("../images/prop2pic2.jpg");
+        }
+
+        #three:checked ~ .display-image{
+            background-image: url("../images/prop1pic3.jpg");
+        }
+
+        #four:checked ~ .display-image{
+            background-image: url("../images/prop2pic4.jpg");
+        }
+
+        #five:checked ~ .display-image{
+            background-image: url("../images/prop1pic5.jpg");
+        }
+
+        #six:checked ~ .display-image{
+            background-image: url("../images/prop1pic6.jpg");
+        }
+    </style>
+</head>
+<header id="top">
+    <img class="logo" src="../images/logo.jpg" alt="website logo">
+    <nav class="nav">
+        <a href="../index.html"> Search</a>
+        <a href="#"> Properties</a>
+        <a href="#"> About US</a>
+    </nav>
+</header>
+<body>
+
+<div class="container">
+    <input type="radio" name="image" id="one" checked>
+    <input type="radio" name="image" id="two">
+    <input type="radio" name="image" id="three">
+    <input type="radio" name="image" id="four">
+    <input type="radio" name="image" id="five">
+    <input type="radio" name="image" id="six">
+
+    <div class="display-image">
+
+    </div>
+
+    <div id="property-right" class="hou">
+        <h1> Flat For Sale </h1>
+        <p> Property Type :&nbsp;  Flat </p>
+        <p> Bedrooms :&nbsp;  7</p>
+        <p> Price :&nbsp;  £1,500,000</p>
+        <p> Tenure :&nbsp;  Freehold</p>
+        <p> Location :&nbsp;  The White House, Gaston Street, East Bergholt </p>
+    </div>
+</div>
+
+<div id="ui-tabs">
+    <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'Description')">Description</button>
+        <button class="tablinks" onclick="openCity(event, 'Plan')">Floor Plan</button>
+        <button class="tablinks" onclick="openCity(event, 'Map')">Google Map</button>
+    </div>
+
+    <div id="Description" class="tabcontent">
+        <h3>Property Description:</h3>
+        <p>Located just off the A12 which links to the M25 and A14, the of high profile village of East Bergholt is just 5 minutes drive from mainline railway links at Manningtree Station (approx. one hour to London Liverpool Street). The village also boasts a range of facilities including general store, post office, baker, chemist, GP surgery and medical centre. The villages provides educational facilities from pre-school age to GCSE, with high performing sixth form colleges in Colchester and Ipswich. There are several independent schools in the local area.Presented in excellent decorative order throughout is this two double bedroom, two bathroom, garden flat. <br>The modern fitted kitchen is open plan to the living room which boasts solid wooden floors and includes integrated appliances including a dishwasher & a washing machine. This large open plan benefits from bi folding doors onto a secluded private courtyard garden. Both bedrooms are double sized, and the family bathroom boasts a matching three piece suite a shower attachment over the bath. There is also a separate wet room. There are walnut doors throughout and wiring for Sky TV/aerial points in the living room.</p>
+    </div>
+
+    <div id="Plan" class="tabcontent">
+        <img src="../images/prop1Plan.jpg" width="700" height="400" alt="propertyPlan">
+    </div>
+
+    <div id="Map" class="tabcontent">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.1503819264803!2d-77.03871848469069!3d38.89767627957066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7bcdecbb1df%3A0x715969d86d0b76bf!2sThe%20White%20House!5e0!3m2!1sen!2slk!4v1609493437092!5m2!1sen!2slk" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+    </div>
+
+    <div id="buttons">
+        <p id="prop6">
+            <button class="addFavourites">Add To Favourites</button>
+            <button class="removeFavourites">Remove from Favourites</button>
+        </p>
+    </div>
+</div>
+</body>
+
+<footer class="foot">
+    <div class="box">
+        <!-- tweeter feed -->
+        <a class="twitter-timeline" data-width="300" data-height="300" data-theme="dark"
+           href="https://twitter.com/rightmove?lang=en">PropertySearch.com</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    <div class="footer-content">
+        <h3>Find Everything Near You: PropertySearch.com</h3>
+        <p id="up">" With over half a billion connections made, just tell us what you like and meet a car you'll love. "</p>
+        <nav class="socials">
+            <a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.png" alt="facebook icon"></a>
+            <a href="https://www.whatsapp.com/?lang=en" target="_blank"><img src="../images/whatsapp.jpg" alt="whatsapp icon"></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><img src="../images/twitter.png" alt="twitter icon"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="../images/messenger.jpg" alt="messenger icon"></a>
+            <a href=https://twitter.com/?lang=en target="_blank"><img src="../images/google.png" alt="google icon"></a>
+            <p id="down">Copyrights@2020 PropertySearch.com. Designed by Bawantha Perera</p>
+        </nav>
+    </div>
+</footer>
+
+</html>

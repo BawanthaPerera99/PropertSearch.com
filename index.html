@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="search.js"></script>
+
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="search.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+</head>
+
+<!--creating the header-->
+<header id="top">
+    <img class="logo" src="images/logo.jpg" alt="website logo">
+    <nav class="nav">
+        <a href="#"> Search</a>
+        <a href="#"> Properties</a>
+        <a href="#"> About US</a>
+    </nav>
+</header>
+
+<body>
+<!--creating the search form-->
+<div id="items">
+    <h1>Find Everything Near You</h1>
+
+    <div class="inline">
+        <h3>Min Bedrooms:</h3>
+        <label for="spinner"></label><input id="spinner" value="1">
+
+        <h3>Max Bedrooms:</h3>
+        <label for="spinner2"></label><input id="spinner2" value="9">
+    </div>
+
+    <h3>Property type:</h3>
+    <select name="property" id="property">
+        <option value="Flat">Flat</option>
+        <option value="House">House</option>
+        <option value="Any" selected>Any</option>
+    </select>
+
+    <div class="Time">
+        <h3>Time Added</h3>
+        <select name="time" id="time">
+            <option value="January", "Feburary", "March", "April"> January - April (2020)</option>
+            <option value="May", "June", "July", "August">May - August (2020)</option>
+            <option value="September", "October", "November", "December">September - December (2020)</option>
+            <option value="Anytime" selected>Anytime</option>
+        </select>
+    </div>
+
+
+    <p class="box">
+    <h3>Price Range</h3>
+    <label for="amount"></label><input type="text" id="amount" readonly class="goldSliderText">
+    </p>
+    <div id="slider-range"></div>
+
+    <br><br>
+
+    <button id="Search">Search</button>
+</div>
+
+<div id="fav">
+    <button class="viewFavourites">View Favourites</button>
+    <button class="clearFavourites">Clear Favourites</button>
+</div>
+
+<div id="Placeholder"></div>
+<div id="Placeholder2"></div>
+
+</body>
+
+<!--creating the footer-->
+<footer class="foot">
+    <div class="box">
+        <!-- tweeter feed -->
+        <a class="twitter-timeline" data-width="300" data-height="300" data-theme="dark"
+           href="https://twitter.com/rightmove?lang=en">PropertySearch.com</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8" ></script>
+    </div>
+    <div class="footer-content">
+        <h3>Find Everything Near You: PropertySearch.com</h3>
+        <p id="up">" With over half a billion connections made, just tell us what you like and meet a car you'll love. "</p>
+        <nav class="socials">
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook icon"></a>
+            <a href="https://www.whatsapp.com/?lang=en" target="_blank"><img src="images/whatsapp.jpg" alt="whatsapp icon"></a>
+            <a href="https://twitter.com/?lang=en" target="_blank"><img src="images/twitter.png" alt="twitter icon"></a>
+            <a href="https://www.facebook.com/" target="_blank"><img src="images/messenger.jpg" alt="messenger icon"></a>
+            <a href=https://twitter.com/?lang=en target="_blank"><img src="images/google.png" alt="google icon"></a>
+            <p id="down">Copyrights@2020 PropertySearch.com. Designed by Bawantha Perera</p>
+        </nav>
+    </div>
+</footer>
+</html>
